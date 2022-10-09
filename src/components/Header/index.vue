@@ -1,5 +1,5 @@
 <template>
-  <div class="header"> This is header </div>
+  <div class="bg-red-400"> This is header </div>
 </template>
 
 <script setup lang="ts">
