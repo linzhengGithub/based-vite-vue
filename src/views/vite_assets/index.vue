@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import SvgIcon from '@/components/SvgIcon/index.vue'
+const url = new URL('./logo.png', import.meta.env.VITE_IMG_BASE_URL)
 const icons = import.meta.glob('../../assets/icons/logo-*.svg')
 
 const iconUrls = Object.keys(icons).map((mod) => {
